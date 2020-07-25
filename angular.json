@@ -7,7 +7,7 @@
       "projectType": "library",
       "root": "apollo",
       "sourceRoot": "apollo/src",
-      "prefix": "lib",
+      "prefix": "apollo",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
