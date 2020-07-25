@@ -31,7 +31,7 @@
           "options": {
             "main": "lib/test.ts",
             "tsConfig": "lib/tsconfig.spec.json",
-            "karmaConfig": "lib/karma.conf.js"
+            "karmaConfig": "karma.conf.js"
           }
         },
         "lint": {
