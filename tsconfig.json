@@ -8,10 +8,10 @@
   "files": [],
   "references": [
     {
-      "path": "./apollo/tsconfig.lib.json"
+      "path": "./lib/tsconfig.lib.json"
     },
     {
-      "path": "./apollo/tsconfig.spec.json"
+      "path": "./lib/tsconfig.spec.json"
     }
 ]
 }

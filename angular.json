@@ -5,36 +5,36 @@
   "projects": {
     "apollo": {
       "projectType": "library",
-      "root": "apollo",
-      "sourceRoot": "apollo/src",
+      "root": "lib",
+      "sourceRoot": "lib/src",
       "prefix": "apollo",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "apollo/tsconfig.lib.json",
-            "project": "apollo/ng-package.json"
+            "tsConfig": "lib/tsconfig.lib.json",
+            "project": "lib/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "apollo/tsconfig.lib.prod.json"
+              "tsConfig": "lib/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "apollo/src/test.ts",
-            "tsConfig": "apollo/tsconfig.spec.json",
-            "karmaConfig": "apollo/karma.conf.js"
+            "main": "lib/src/test.ts",
+            "tsConfig": "lib/tsconfig.spec.json",
+            "karmaConfig": "lib/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "apollo/tsconfig.lib.json",
-              "apollo/tsconfig.spec.json"
+              "lib/tsconfig.lib.json",
+              "lib/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
