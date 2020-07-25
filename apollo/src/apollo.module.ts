@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
-import { ApolloComponent } from './apollo.component';
-
-
+import { LayoutComponent } from './components/layout/layout.component';
 
 @NgModule({
-  declarations: [ApolloComponent],
+  declarations: [LayoutComponent],
   imports: [
   ],
-  exports: [ApolloComponent]
+  exports: [LayoutComponent]
 })
 export class ApolloModule { }

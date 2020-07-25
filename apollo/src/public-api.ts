@@ -2,6 +2,6 @@
  * Public API Surface of apollo
  */
 
-export * from './apollo.service';
-export * from './apollo.component';
+export * from './services/apollo.service';
+export * from './components/layout/layout.component';
 export * from './apollo.module';
