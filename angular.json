@@ -12,7 +12,6 @@
       },
       "root": "lib",
       "sourceRoot": "lib/src",
-      "prefix": "apollo",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
