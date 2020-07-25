@@ -1,12 +1,12 @@
 @import 'variables';
-@import '~@ng-select/ng-select/scss/ng-select.component';
+@import '../../node_modules/@ng-select/ng-select/scss/ng-select.component';
 
 $ng-select-disabled-text: $white;
 $ng-select-height: $input-height;
 $ng-select-highlight: $primary;
 $ng-select-box-shadow: none;
 
-@import '~@ng-select/ng-select/scss/default.theme';
+@import '../../node_modules/@ng-select/ng-select/scss/default.theme';
 
 .ng-select {
   & &-container {

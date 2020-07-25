@@ -1,5 +1,5 @@
 @import "variables";
-@import "../../../node_modules/bootstrap/scss/mixins"; // See https://stackoverflow.com/a/48549228
+@import "../../node_modules/bootstrap/scss/mixins"; // See https://stackoverflow.com/a/48549228
 
 @mixin inner-spinner($size: 1.25rem, $color: #364385) {
   position: relative;

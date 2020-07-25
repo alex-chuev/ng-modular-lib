@@ -38,10 +38,22 @@
         "order": [
           "static-field",
           "instance-field",
+          "private-static-field",
+          "private-instance-field",
+          "protected-static-field",
+          "protected-instance-field",
           "static-method",
-          "instance-method"
+          "instance-method",
+          "protected-static-method",
+          "protected-instance-method",
+          "private-static-method",
+          "private-instance-method"
         ]
       }
+    ],
+    "member-access": [
+      true,
+      "no-public"
     ],
     "no-any": true,
     "no-console": [
@@ -83,10 +95,7 @@
         "named": "never"
       }
     },
-    "typedef": [
-      true,
-      "call-signature"
-    ],
+    "typedef": [true],
     "typedef-whitespace": {
       "options": [
         {
