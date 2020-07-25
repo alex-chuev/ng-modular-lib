@@ -5,6 +5,11 @@
   "projects": {
     "apollo": {
       "projectType": "library",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "lib",
       "sourceRoot": "lib/src",
       "prefix": "apollo",
