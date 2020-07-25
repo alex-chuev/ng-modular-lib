@@ -21,8 +21,7 @@
     ],
     "paths": {
       "apollo": [
-        "dist/apollo/apollo",
-        "dist/apollo"
+        "dist"
       ]
     }
   },
