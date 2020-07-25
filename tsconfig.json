@@ -6,5 +6,12 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./apollo/tsconfig.lib.json"
+    },
+    {
+      "path": "./apollo/tsconfig.spec.json"
+    }
+]
 }
