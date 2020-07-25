@@ -1,0 +1,23 @@
+@import "variables";
+
+button {
+  &:focus {
+    outline: none;
+  }
+}
+
+input:disabled,
+input[readonly] {
+  color: $input-disabled-color;
+}
+
+a, .btn-link {
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.btn-link {
+  font-weight: $font-weight-medium;
+}

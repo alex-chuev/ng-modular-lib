@@ -1,0 +1,30 @@
+@import "variables";
+@import "../../../node_modules/bootstrap/scss/mixins"; // See https://stackoverflow.com/a/48549228
+
+@mixin inner-spinner($size: 1.25rem, $color: #364385) {
+  position: relative;
+
+  &::before {
+    $shift: -($size / 2);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    width: $size;
+    height: $size;
+    margin-top: $shift;
+    margin-left: $shift;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    border-top-color: $color;
+    border-radius: 50%;
+    animation: inner-spinner 0.8s linear infinite;
+    content: '';
+  }
+
+  @keyframes inner-spinner {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

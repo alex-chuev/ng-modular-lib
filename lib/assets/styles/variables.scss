@@ -1,0 +1,55 @@
+$blue: #3066fb;
+$success: #34c332;
+$light: #f6f7fb;
+$purple: #A14EAD;
+$deep-purple: #260055;
+$pink: #d71969;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1340px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1280px
+) !default;
+
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+$font-weight-medium: 500;
+
+$label-margin-bottom: 0.25rem;
+
+$input-disabled-bg: $white;
+$input-disabled-color: $gray-500;
+
+$dt-font-weight: $font-weight-medium;
+$badge-font-weight: $font-weight-medium;
+
+$popover-body-color: $gray-100;
+$popover-bg: $gray-800;
+$popover-border-width: 0;
+$popover-box-shadow: 0 0.25rem 0.5rem $black;
+$popover-header-bg: $popover-bg;
+$popover-header-color: $popover-body-color;
+$popover-arrow-color: $popover-bg;
+$popover-header-padding-y: 0.5rem 0.75rem 0;
+
+$badge-padding-y: 0.3rem;
+$badge-padding-x: 0.5rem;
+$badge-border-radius: 0.125rem;
+$badge-font-size: 0.75rem;
+
+$dropdown-min-width: 8rem;
+$dropdown-item-padding-y: 0.375rem;
+$dropdown-item-padding-x: 1rem;
+
+$table-border-color: $gray-200;
+$table-cell-padding: 0.675rem 0.75rem;
